@@ -9,9 +9,6 @@
 </head>
 
 <body>
-    <div class="loading_screen">
-        <div class="spinner"></div>
-    </div>
     <header class="header">
         <div class="container">
             <div class="game">
@@ -24,7 +21,7 @@
                     <div class="game_right">
                         <form class="game_form">
                             <input name="input" type="text" class="game_input" placeholder="For Task Name">
-                            <select class="game_select">
+                            <select name="select" class="game_select">
                                 <option value="easy">easy</option>
                                 <option value="medium">medium</option>
                                 <option value="hard">hard</option>
@@ -39,19 +36,11 @@
                 <section class="box">
                     <h2>Quests</h2>
                     <div class="game_list">
+                        <div class="game_card">
 
+                        </div>
                     </div>
                 </section>
-                <aside class="game_stats">
-                    <h2>Statistics</h2>
-                    <ul class="stats_list">
-                        <li class="list">Total quests:</li>
-                        <li class="list">Hard quests:</li>
-                        <li class="list">Easy quests:</li>
-                        <li class="list">Completed quests:</li>
-                        <li class="list">Nested (flat) opened count:</li>
-                    </ul>
-                </aside>
             </div>
         </div>
     </header>
